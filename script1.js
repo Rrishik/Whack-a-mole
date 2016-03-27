@@ -59,6 +59,7 @@ function end() {
 function divClick(d) {
   clearTimeout(b);
   currDiv=d;
+  document.getElementById("div"+currDiv).style.backgroundColor="rgb(50, 255, 50)";
   var Tstop=new Date();
   tf=Tstop.getTime();
   if (activDiv==currDiv){
