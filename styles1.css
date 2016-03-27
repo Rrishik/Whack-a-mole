@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(72, 24, 1);
+}
+
+#main {
+  display: inline-block;
+  padding-left: 10%;
+}
+
+.row1 {
+  height: 30%;
+  padding-top: 20px;
+}
+
+.row2 {
+  height: 30%;
+  padding-top: 120px;
+
+}
+
+.row3 {
+  height: 30%;
+  padding-top: 120px;
+}
+
+.controls {
+  padding-top: 20px;
+  padding-left: 20%;
+}
+
+button {
+  height: 25px;
+  width: 80px;
+  border-radius: 15%;
+  background-color: rgb(189, 135, 51);
+  border-left: solid 2px rgb(220, 174, 91);
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#line1 {
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+  float: right;
+}
+
+#output {
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+}
